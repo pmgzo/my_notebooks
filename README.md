@@ -11,7 +11,7 @@ https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.h
 ## Conda command for managing environments
 
 ```
-conda env create -f environment.yml #create an env from a file
+conda env create -f environment.yml --name <env_name> #create an env from a file
 
 conda env remove --name env_name #delete an
 env
